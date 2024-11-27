@@ -1,0 +1,91 @@
+.diskette-container {
+  width: 400px;
+  height: 400px;
+  background-color: #363636;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #000;
+  display: flex;
+  flex-direction: column;
+}
+
+.invisible-top {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.metal-part {
+  width: 250px;
+  height: 150px;
+  border-radius: 0 0 10px 10px;
+  background-image: linear-gradient(to right, #b1b1b1, #efefef, #b1b1b1, #b1b1b1);
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.hueco-brother {
+  width: 60px;
+  height: 120px;
+}
+
+.metal-hueco{
+  width: 60px;
+  height: 120px;
+  background-color: #363636;
+  align-self: center;
+  translate: 0 5px;
+  border-radius: 2px;
+}
+
+.invisible-middle{
+  width: 100%;
+  height: 40px;
+}
+
+.invisible-botton{
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: center;
+}
+
+.label-container{
+  width: 300px;
+  height: 210px;
+  background-color: #ab3838;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+
+}
+
+.text-content {
+  width: 98%;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 1px;
+}
+
+.text-message{
+  translate: 15px -4px;
+  color: #8d5151;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.to-write{
+  width: 98%;
+  height: 22px;
+  background-color: #fff;
+  border-radius: 1px;
+}
+
+.write-invi {
+  width: 98%;
+  height: 22px;
+}
