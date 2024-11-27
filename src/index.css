@@ -69,13 +69,13 @@
   height: 30px;
   background-color: #fff;
   border-radius: 1px;
-}
 
-.text-message{
-  translate: 15px -4px;
-  color: #8d5151;
-  font-family: sans-serif;
-  font-weight: 600;
+  & .text-message{
+    translate: 15px -4px;
+    color: #8d5151;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
 }
 
 .to-write{
